@@ -17,7 +17,7 @@ services:
     image: nizovtsevnv/nfs
     volumes:
       - /my/shared/ro:/shared/ro:ro
-      - /my/shared/ro:/shared/rw:rw
+      - /my/shared/rw:/shared/rw:rw
 ...
 ```
 
