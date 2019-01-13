@@ -11,4 +11,4 @@ EXPOSE 111/udp 2049/udp 2049/tcp
 
 VOLUME ["/shared/ro", "/shared/rw"]
 
-COMMAND ["/init"]
+CMD ["/init"]
